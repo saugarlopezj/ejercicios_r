@@ -85,7 +85,7 @@ ggplot(data3, aes(x= probabilidad, y= media))+
   geom_point()+
   geom_hline(yintercept = 0)
 
-require(ggplot2)
+
 ggplot(data3, aes(x= probabilidad, y= media))+
   geom_ribbon(aes(ymin=intinf, ymax=intsup), fill= "grey50")+
   geom_line()+
