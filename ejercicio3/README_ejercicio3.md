@@ -9,10 +9,10 @@ Se utilizó la librería "psych" al comparar la función describe() con mean() y
  
 
 ## Ejecución
-El resultado final se encuentra en este enlace. [Ver markdown](ejercicio3/ejercicio3-markdown-.md)
+El resultado final se encuentra en este enlace. [Ver markdown](ejercicio3-markdown-.md)
 
 ## Código
-Se puede consultar el código utilizado aquí. [Ver código](ejercicio3/ejercicio3.R)
+Se puede consultar el código utilizado aquí. [Ver código](ejercicio3.R)
  
 
 
