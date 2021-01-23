@@ -169,7 +169,7 @@ ggplot(data3, aes(x= probabilidad, y= media))+
 
 <div class="figure" style="text-align: center">
 
-<img src="ejercicio3-Rmarkdown-_files/figure-gfm/gráfico probabilidad -1.png" alt="Ganancias medias conforme cambia la probabilidad"  />
+<img src="ejercicio3-Rmarkdown-_files/figure-gfm/gráfico probabilidad -1.jpeg" alt="Ganancias medias conforme cambia la probabilidad"  />
 
 <p class="caption">
 
@@ -232,7 +232,7 @@ ggplot(tabla5,aes(x=bolsa, y=media))+
 
 <div class="figure" style="text-align: center">
 
-<img src="ejercicio3-Rmarkdown-_files/figure-gfm/gráfico bolsa -1.png" alt="Ganancias medias conforme cambia el valor de la bolsa"  />
+<img src="ejercicio3-Rmarkdown-_files/figure-gfm/gráfico bolsa -1.jpeg" alt="Ganancias medias conforme cambia el valor de la bolsa"  />
 
 <p class="caption">
 
@@ -288,7 +288,7 @@ ggplot(tabla7, aes(x= limite, y=media))+
 
 <div class="figure" style="text-align: center">
 
-<img src="ejercicio3-Rmarkdown-_files/figure-gfm/gráfico límite -1.png" alt="Ganancias medias conforme cambia el valor del límite"  />
+<img src="ejercicio3-Rmarkdown-_files/figure-gfm/gráfico límite -1.jpeg" alt="Ganancias medias conforme cambia el valor del límite"  />
 
 <p class="caption">
 
@@ -324,7 +324,7 @@ for(i in 1:k){
 ```
 
     ##    user  system elapsed 
-    ##    2.24    0.15    2.39
+    ##    2.32    0.06    2.39
 
 ``` r
 system.time({
@@ -335,7 +335,7 @@ for(i in 1:k){
 ```
 
     ##    user  system elapsed 
-    ##    0.60    0.02    0.61
+    ##    0.61    0.00    0.61
 
 ## 2.2 Utilizar lenguaje lógico frente a utilizar if
 
@@ -357,14 +357,14 @@ v3<-as.logical(v3)})
 ```
 
     ##    user  system elapsed 
-    ##    1.61    0.00    1.61
+    ##    1.59    0.02    1.61
 
 ``` r
 system.time({v3<-v3<30000})
 ```
 
     ##    user  system elapsed 
-    ##    0.02    0.01    0.03
+    ##    0.03    0.00    0.03
 
 ## 2.3 ¿Qué bucle es más eficiente?
 
@@ -380,7 +380,7 @@ system.time({for(i in 1:k){
 ```
 
     ##    user  system elapsed 
-    ##    0.26    0.00    0.27
+    ##    0.27    0.00    0.27
 
 ``` r
 system.time({i<- 1
@@ -391,7 +391,7 @@ while(i<= k){
 ```
 
     ##    user  system elapsed 
-    ##    0.59    0.00    0.60
+    ##    0.56    0.01    0.57
 
 ``` r
 system.time({
@@ -404,7 +404,7 @@ repeat{
 ```
 
     ##    user  system elapsed 
-    ##    0.01    0.00    0.01
+    ##    0.01    0.00    0.02
 
 ## 2.4 ¿Aply o bucle for?
 
@@ -418,7 +418,7 @@ system.time({apply(m1,2,mean)})
 ```
 
     ##    user  system elapsed 
-    ##    0.01    0.05    0.06
+    ##    0.04    0.02    0.06
 
 ``` r
 system.time({for(i in 1:10){
@@ -438,7 +438,7 @@ system.time({for(i in 1:10){
     ## [1] 9500001
 
     ##    user  system elapsed 
-    ##    0.03    0.00    0.03
+    ##    0.02    0.01    0.03
 
 ## 2.5 Función mean frente función describe del paquete psych
 
@@ -450,7 +450,7 @@ system.time({mean(1:10000000)})
 ```
 
     ##    user  system elapsed 
-    ##    0.04    0.00    0.05
+    ##    0.05    0.00    0.05
 
 ``` r
 library("psych")
@@ -469,4 +469,4 @@ system.time({
 ```
 
     ##    user  system elapsed 
-    ##    2.97    0.36    3.33
+    ##    2.83    0.62    3.45
