@@ -169,9 +169,8 @@ ggplot(data3, aes(x= probabilidad, y= media))+
 
 
 ![Ganancias medias conforme cambia la probabilidad]
-(https://raw.githubusercontent.com/parzibyte/ejercicios_r/master/ejercicio3/imagenes/grafico_probabilidad.png)
 
-
+https://github.com/saugarlopezj/ejercicios_r/main/ejercicio3/imagenes/grafico_probabilidad.png)
 
 ## 1.3 Modificando el valor de bolsa
 
@@ -226,7 +225,7 @@ ggplot(tabla5,aes(x=bolsa, y=media))+
 
 
 ![Ganancias medias conforme cambia el valor de la bolsa]
-(https://raw.githubusercontent.com/parzibyte/ejercicios_r/master/ejercicio3/imagenes/grafico_bolsa.png)
+(https://raw.githubusercontent.com/saugarlopezj/ejercicios_r/master/ejercicio3/imagenes/grafico_bolsa.png))
 
 
 
@@ -276,10 +275,7 @@ ggplot(tabla7, aes(x= limite, y=media))+
 
 
 
-![Ganancias medias conforme cambia el valor del límite]
-https://raw.githubusercontent.com/parzibyte/ejercicios_r/master/ejercicio3/imagenes/grafico_limite.png
-
-
+(<img src="ejercicio3/imagenes/grafico_limite.png" alt="Ganancias medias conforme cambia el valor de límite"  /> )
 
 # 2 Rendimiento a la hora de progamar
 
