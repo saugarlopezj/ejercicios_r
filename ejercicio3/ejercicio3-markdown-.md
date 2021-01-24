@@ -167,17 +167,11 @@ ggplot(data3, aes(x= probabilidad, y= media))+
   geom_hline(yintercept = 0, color="blue")
 ```
 
-<div class="figure" style="text-align: center">
 
-<img src="ejercicio3-Rmarkdown-_files/figure-gfm/gráfico probabilidad -1.jpeg" alt="Ganancias medias conforme cambia la probabilidad"  />
+![Ganancias medias conforme cambia la probabilidad]
+(https://raw.githubusercontent.com/parzibyte/ejercicios_r/master/ejercicio3/imagenes/grafico_probabilidad.png)
 
-<p class="caption">
 
-Ganancias medias conforme cambia la probabilidad
-
-</p>
-
-</div>
 
 ## 1.3 Modificando el valor de bolsa
 
@@ -230,17 +224,11 @@ ggplot(tabla5,aes(x=bolsa, y=media))+
   geom_hline(yintercept=0, color= "blue")
 ```
 
-<div class="figure" style="text-align: center">
 
-<img src="ejercicio3-Rmarkdown-_files/figure-gfm/gráfico bolsa -1.jpeg" alt="Ganancias medias conforme cambia el valor de la bolsa"  />
+![Ganancias medias conforme cambia el valor de la bolsa]
+(https://raw.githubusercontent.com/parzibyte/ejercicios_r/master/ejercicio3/imagenes/grafico_bolsa.png)
 
-<p class="caption">
 
-Ganancias medias conforme cambia el valor de la bolsa
-
-</p>
-
-</div>
 
 ## 1.4 Cambiando el límite de la mesa
 
@@ -286,17 +274,12 @@ ggplot(tabla7, aes(x= limite, y=media))+
   geom_hline(yintercept = 0, color= "green")
 ```
 
-<div class="figure" style="text-align: center">
 
-<img src="ejercicio3-Rmarkdown-_files/figure-gfm/gráfico límite -1.jpeg" alt="Ganancias medias conforme cambia el valor del límite"  />
 
-<p class="caption">
+![Ganancias medias conforme cambia el valor del límite]
+https://raw.githubusercontent.com/parzibyte/ejercicios_r/master/ejercicio3/imagenes/grafico_limite.png
 
-Ganancias medias conforme cambia el valor del límite
 
-</p>
-
-</div>
 
 # 2 Rendimiento a la hora de progamar
 
