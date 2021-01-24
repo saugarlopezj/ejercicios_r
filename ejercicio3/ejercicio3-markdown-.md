@@ -224,8 +224,7 @@ ggplot(tabla5,aes(x=bolsa, y=media))+
 ```
 
 
-![Ganancias medias conforme cambia el valor de la bolsa]
-(https://raw.githubusercontent.com/saugarlopezj/ejercicios_r/main/ejercicio3/imagenes/grafico_bolsa.png)
+![Ganancias medias conforme cambia el valor de la bolsa](https://raw.githubusercontent.com/saugarlopezj/ejercicios_r/main/ejercicio3/imagenes/grafico_bolsa.png)
 
 
 
