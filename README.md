@@ -18,6 +18,8 @@ La ejecución del mismo se encuentra en este enlace. [Ver markdown](ejercicio2--
 El código utilizado en el markdown en este enlace. [Ver código](ejercicio2.R)
 
 
+
+
 ###  3.Ejercicio 3: 
 
 #### 3.1.Descripción
